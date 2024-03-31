@@ -1,14 +1,82 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(12, 11, 27);
+    color: aliceblue;
+}
+
+a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .navigation {
     border-bottom: solid;
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 .navigation-menu {
-    display: flex;   
+    display: flex; 
+    align-items: center; 
 }
-.navigation-menu > p {
+.navigation-menu > a {
+    text-decoration: none; 
+    color: aliceblue;
     margin-left: 30px;
+}
+
+#project {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+}  
+#project > div {
+    margin-left: 3%;
+    width: 50%;
+}
+
+#work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.feature-card {
+    width: 20%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#members{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-card {
+    width: 20%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(27, 27, 59);
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer > div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
